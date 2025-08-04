@@ -12,7 +12,7 @@ export class MongodbAtlasVpcPeeringStack extends cdk.Stack {
     // Get your VPC ready, or use the existing one
     const vpc = new Vpc(this, "Vpc", {
       maxAzs: 2,
-      natGateways: 0, // No NAT Gateway, testing only
+      natGateways: 1, // 1 Nat Gateway, testing only
       subnetConfiguration: [
         {
           cidrMask: 24,
