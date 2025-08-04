@@ -1,6 +1,7 @@
-# Welcome to your CDK TypeScript project
+# MongoDB Atlas with AWS CDK and VPC Peering
+This project provides a reusable MongoDB construct for deploying an AWS CDK stack that integrates with MongoDB Atlas using VPC peering.
 
-This is a blank project for CDK development with TypeScript.
+For full details, visit: https://luanphan.net/blog/mongodb-atlas-aws-cdk-vpc-peering/
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
